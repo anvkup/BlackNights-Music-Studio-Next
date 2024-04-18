@@ -38,10 +38,9 @@ npm manifest:
       "start": "next start",
       "export": "next export"
     },
-    "author": "TeleportHQ",
-    "license": "MIT",
+    "author": "BlackNights Music Studio",
+    "license": "",
     "dependencies": {
-      "@vercel/analytics": "^1.2.2",
       "dangerous-html": "0.1.13",
       "next": "^12.1.10",
       "prop-types": "15.7.2",

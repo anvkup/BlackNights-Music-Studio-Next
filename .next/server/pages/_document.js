@@ -117,10 +117,19 @@ class CustomDocument extends next_document__WEBPACK_IMPORTED_MODULE_1__["default
                             href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap",
                             "data-tag": "font"
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                            rel: "stylesheet",
-                            href: "https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-                        }),
+                        /*#__PURE__*/
+                        
+                      
+// ██████╗░███████╗███╗░░░███╗░█████╗░██╗░░░██╗███████╗██████╗░
+// ██╔══██╗██╔════╝████╗░████║██╔══██╗██║░░░██║██╔════╝██╔══██╗
+// ██████╔╝█████╗░░██╔████╔██║██║░░██║╚██╗░██╔╝█████╗░░██║░░██║
+// ██╔══██╗██╔══╝░░██║╚██╔╝██║██║░░██║░╚████╔╝░██╔══╝░░██║░░██║
+// ██║░░██║███████╗██║░╚═╝░██║╚█████╔╝░░╚██╔╝░░███████╗██████╔╝
+
+                        //  react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                        //     rel: "stylesheet",
+                        //     href: "https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+                        // }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("noscript", {
                             dangerouslySetInnerHTML: {
                                 __html: "</noscript><style>\n@keyframes fade-in-left {\n  0% {\n    opacity: 0;\n    transform: translateX(-20px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateX(0);\n  }\n}\n</style><noscript>"

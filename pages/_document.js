@@ -94,10 +94,21 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
           ></link>
-          <link
+{/* 
+██████╗░███████╗███╗░░░███╗░█████╗░██╗░░░██╗███████╗██████╗░
+██╔══██╗██╔════╝████╗░████║██╔══██╗██║░░░██║██╔════╝██╔══██╗
+██████╔╝█████╗░░██╔████╔██║██║░░██║╚██╗░██╔╝█████╗░░██║░░██║
+██╔══██╗██╔══╝░░██║╚██╔╝██║██║░░██║░╚████╔╝░██╔══╝░░██║░░██║
+██║░░██║███████╗██║░╚═╝░██║╚█████╔╝░░╚██╔╝░░███████╗██████╔╝
+╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝░╚════╝░░░░╚═╝░░░╚══════╝╚═════╝░
+ */}
+
+
+
+          {/* <link
             rel="stylesheet"
             href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-          ></link>
+          ></link> */}
           <noscript
             dangerouslySetInnerHTML={{
               __html:
@@ -108,12 +119,14 @@ class CustomDocument extends Document {
         <body>
           <Main></Main>
           <NextScript></NextScript>
-          <div
+          {/* <div
             dangerouslySetInnerHTML={{
               __html:
-                "<script data-section-id='navbar' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+                
+              "<script data-section-id='navbar' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+
             }}
-          ></div>
+          ></div> */}
         </body>
       </Html>
     )
