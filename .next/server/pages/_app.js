@@ -16,11 +16,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _vercel_analytics_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(752);
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '@vercel/speed-insights/next'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _vercel_speed_insights_next__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(451);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_vercel_analytics_react__WEBPACK_IMPORTED_MODULE_1__]);
-_vercel_analytics_react__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_vercel_analytics_react__WEBPACK_IMPORTED_MODULE_1__, _vercel_speed_insights_next__WEBPACK_IMPORTED_MODULE_2__]);
+([_vercel_analytics_react__WEBPACK_IMPORTED_MODULE_1__, _vercel_speed_insights_next__WEBPACK_IMPORTED_MODULE_2__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 
@@ -33,7 +33,7 @@ function MyApp({ Component: Component , pageProps: pageProps  }) {
                 ...pageProps
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_vercel_analytics_react__WEBPACK_IMPORTED_MODULE_1__.Analytics, {}),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Object(function webpackMissingModule() { var e = new Error("Cannot find module '@vercel/speed-insights/next'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {})
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_vercel_speed_insights_next__WEBPACK_IMPORTED_MODULE_2__.SpeedInsights, {})
         ]
     });
 }
@@ -61,6 +61,13 @@ module.exports = require("react/jsx-runtime");
 /***/ ((module) => {
 
 module.exports = import("@vercel/analytics/react");;
+
+/***/ }),
+
+/***/ 451:
+/***/ ((module) => {
+
+module.exports = import("@vercel/speed-insights/next");;
 
 /***/ })
 
