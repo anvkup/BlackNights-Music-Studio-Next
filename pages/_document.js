@@ -8,6 +8,9 @@ class CustomDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           ></meta>
+          <meta
+            name="description"
+            content="Elevate your music to new heights with Ranchi's finest recording studio and music production facility. We also offer exceptional advertisement solutions."></meta>
           <meta charSet="utf-8"></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
           <style
@@ -94,7 +97,7 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
           ></link>
-{/* 
+          {/* 
 ██████╗░███████╗███╗░░░███╗░█████╗░██╗░░░██╗███████╗██████╗░
 ██╔══██╗██╔════╝████╗░████║██╔══██╗██║░░░██║██╔════╝██╔══██╗
 ██████╔╝█████╗░░██╔████╔██║██║░░██║╚██╗░██╔╝█████╗░░██║░░██║
