@@ -128,9 +128,9 @@ const Home = (props) => {
         <div className="home-hero">
           <div id="hero" className="home-hero1 heroContainer">
             <div className="home-container01">
-              <h1 className="home-hero-heading heading1">
+              <h2 className="home-hero-heading heading1">
                 Welcome to BlackNights Music Studio
-              </h1>
+              </h2>
               <span className="home-hero-sub-heading bodyLarge">
                 <span>
                   <span>
