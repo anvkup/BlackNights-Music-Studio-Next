@@ -1,6 +1,7 @@
 import React from 'react'
 
 import PropTypes from 'prop-types'
+import Image from 'next/image'
 
 const TestimonialCard4 = (props) => {
   return (
@@ -13,11 +14,12 @@ const TestimonialCard4 = (props) => {
         </svg>
         <span className="testimonial-card4-text">{props.quote}</span>
         <div className="testimonial-card4-profile">
-          <img
+          <Image alt={props.pictureAlt} src={props.pictureSrc} className='testimonial-card4-image' />
+          {/* <img
             alt={props.pictureAlt}
             src={props.pictureSrc}
             className="testimonial-card4-image"
-          />
+          /> */}
           <div className="testimonial-card4-container">
             <span className="testimonial-card4-text1">{props.name}</span>
             <span className="testimonial-card4-text2">{props.role}</span>

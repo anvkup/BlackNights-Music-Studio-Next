@@ -1,6 +1,7 @@
 import React from 'react'
 
 import PropTypes from 'prop-types'
+import Image from 'next/image'
 
 const TestimonialCard2 = (props) => {
   return (
@@ -15,11 +16,12 @@ const TestimonialCard2 = (props) => {
           <span className="testimonial-card2-text">{props.quote}</span>
           <span className="testimonial-card2-text1">{props.name}</span>
         </div>
-        <img
+        <Image alt={props.profileAlt} src={props.profileSrc} className='testimonial-card2-image'/>
+        {/* <img
           alt={props.profileAlt}
           src={props.profileSrc}
           className="testimonial-card2-image"
-        />
+        /> */}
       </div>
       <style jsx>
         {`

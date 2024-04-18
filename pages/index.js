@@ -5,6 +5,7 @@ import Script from 'dangerous-html/react'
 
 import FeatureCard from '../components/feature-card'
 import Stats from '../components/stats'
+import Image from 'next/image'
 
 const Home = (props) => {
   return (
@@ -430,11 +431,14 @@ const Home = (props) => {
                     </span>
                     <span className="home-text60">Neha Firdaush</span>
                   </div>
-                  <img
+                  <Image alt="profile"
+                    src="/testimonials/nehafirdaush-200h.jpg"
+                    className='home-image' />
+                  {/* <img
                     alt="profile"
                     src="/testimonials/nehafirdaush-200h.jpg"
                     className="home-image"
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="home-testimonial-card1">
@@ -451,11 +455,14 @@ const Home = (props) => {
                   </span>
                   <span className="home-text62">Binod Mishra</span>
                 </div>
-                <img
+                <Image  alt="profile"
+                  src="/testimonials/binod-200w.jpeg"
+                  className='home-image1' />
+                {/* <img
                   alt="profile"
                   src="/testimonials/binod-200w.jpeg"
                   className="home-image1"
-                />
+                /> */}
               </div>
             </div>
             <div className="home-container19">
@@ -470,11 +477,14 @@ const Home = (props) => {
                   quality of my recordings.
                 </span>
                 <div className="home-profile">
-                  <img
+                  <Image alt="Akansh Deep"
+                    src="/testimonials/akansh-200h.jpg"
+                    className='home-image2' />
+                  {/* <img
                     alt="John Doe"
                     src="/testimonials/akansh-200h.jpg"
                     className="home-image2"
-                  />
+                  /> */}
                   <div className="home-container20">
                     <span className="home-text64">Akansh Deep</span>
                     <span className="home-text65">Software Engineer</span>
