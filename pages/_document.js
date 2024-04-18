@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import Link from 'next/link'
+import Script from 'next/script'
 class CustomDocument extends Document {
   render() {
     return (
@@ -28,7 +29,7 @@ class CustomDocument extends Document {
             }}
             data-tag="default-style-sheet"
           ></style>
-          <Link rel='stylesheet' href={"https://unpkg.com/animate.css@4.1.1/animate.css"}/>
+          <Script rel='stylesheet' src='https://unpkg.com/animate.css@4.1.1/animate.css'/>
           {/* <link
             rel="stylesheet"
             href="https://unpkg.com/animate.css@4.1.1/animate.css"
