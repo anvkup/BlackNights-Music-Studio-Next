@@ -433,7 +433,7 @@ const Home = (props) => {
                   </div>
                   <Image alt="profile"
                     src="/testimonials/nehafirdaush-200h.jpg"
-                    className='home-image' />
+                    className="home-image" />
                   {/* <img
                     alt="profile"
                     src="/testimonials/nehafirdaush-200h.jpg"
@@ -457,7 +457,7 @@ const Home = (props) => {
                 </div>
                 <Image  alt="profile"
                   src="/testimonials/binod-200w.jpeg"
-                  className='home-image1' />
+                  className="home-image1" />
                 {/* <img
                   alt="profile"
                   src="/testimonials/binod-200w.jpeg"
@@ -479,7 +479,7 @@ const Home = (props) => {
                 <div className="home-profile">
                   <Image alt="Akansh Deep"
                     src="/testimonials/akansh-200h.jpg"
-                    className='home-image2' />
+                    className="home-image2" />
                   {/* <img
                     alt="John Doe"
                     src="/testimonials/akansh-200h.jpg"
