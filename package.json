@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
     "dangerous-html": "0.1.13",
     "next": "^12.1.10",
     "prop-types": "15.7.2",
