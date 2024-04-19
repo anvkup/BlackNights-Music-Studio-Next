@@ -10,7 +10,18 @@ import Image from 'next/image'
 const Home = (props) => {
   return (
     <>
-      <div className="home-container">
+      {/* 
+              .home-container {
+            width: 100%;
+            display: flex;
+            overflow: auto;
+            min-height: 100vh;
+            align-items: center;
+            flex-direction: column;
+            background-color: var(--dl-color-gray-black);
+          }
+    */}
+      <div className="w-full flex overflow-auto min-h-screen items-center flex-col">
         <Head>
           <title>BlackNights Music Studio</title>
         </Head>
@@ -19,7 +30,7 @@ const Home = (props) => {
             data-thq="thq-navbar"
             className="home-navbar-interactive navbarContainer"
           >
-            <span className="home-logo">BlackNights Music Studio</span>
+            <p className="font-medium text-2xl">BlackNights Music Studio</p>
             <div data-thq="thq-navbar-nav" className="home-desktop-menu">
               <nav className="home-links">
                 <a href="#hero" className="home-nav12 bodySmall">
@@ -125,7 +136,18 @@ const Home = (props) => {
             </div>
           </header>
         </div>
-        <div className="home-hero">
+        {/* 
+                  .home-hero {
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            margin-top: 96px;
+            align-items: flex-start;
+            justify-content: center;
+          }
+        */}
+        <div className="">
           <div id="hero" className="home-hero1 heroContainer">
             <div className="home-container01">
               <h1 className="heading1">
@@ -598,15 +620,6 @@ const Home = (props) => {
       </div>
       <style jsx>
         {`
-          .home-container {
-            width: 100%;
-            display: flex;
-            overflow: auto;
-            min-height: 100vh;
-            align-items: center;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-black);
-          }
           .home-header {
             width: 100%;
             display: flex;
@@ -619,6 +632,7 @@ const Home = (props) => {
           .home-navbar-interactive {
             background-color: var(--dl-color-gray-black);
           }
+<<<<<<< Updated upstream
           .home-logo {
             font-size: 2em;
             align-self: center;
@@ -627,6 +641,8 @@ const Home = (props) => {
             line-height: 150%;
             text-transform: capitalize;
           }
+=======
+>>>>>>> Stashed changes
           .home-desktop-menu {
             flex: 1;
             display: flex;
@@ -761,15 +777,6 @@ const Home = (props) => {
           .home-icon08 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
-          }
-          .home-hero {
-            flex: 0 0 auto;
-            width: 100%;
-            height: auto;
-            display: flex;
-            margin-top: 96px;
-            align-items: flex-start;
-            justify-content: center;
           }
           .home-hero1 {
             background-color: var(--dl-color-gray-black);
