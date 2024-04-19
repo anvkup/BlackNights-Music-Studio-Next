@@ -45,7 +45,7 @@
 .buttonFilled {
   color: var(--dl-color-custom-neutral-dark);
   transition: 0.3s;
-  font-family: Nunito;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-oneandhalfunits);
@@ -61,7 +61,7 @@
 .buttonFilledSecondary {
   color: var(--dl-color-custom-neutral-light);
   transition: 0.3s;
-  font-family: Nunito;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-oneandhalfunits);
@@ -77,7 +77,7 @@
 .buttonOutline {
   color: var(--dl-color-custom-neutral-dark);
   border: 1px solid;
-  font-family: Nunito;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-custom-neutral-dark);
@@ -91,7 +91,7 @@
 }
 .buttonFlat {
   color: var(--dl-color-custom-neutral-light);
-  font-family: Nunito;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-oneandhalfunits);
@@ -303,14 +303,14 @@
 }
 .logo {
   font-size: 2em;
-  font-family: Nunito;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   line-height: 150%;
   text-transform: uppercase;
 }
 .overline {
   font-size: 12px;
-  font-family: Nunito;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   line-height: 150%;
   text-transform: uppercase;
@@ -330,7 +330,7 @@
 }
 .bodyLarge {
   font-size: 18px;
-  font-family: Nunito;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   line-height: 150%;
 }
@@ -344,7 +344,7 @@
 }
 .bodySmall {
   font-size: 16px;
-  font-family: Nunito;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   line-height: 150%;
 }

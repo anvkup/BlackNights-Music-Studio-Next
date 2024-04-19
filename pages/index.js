@@ -607,7 +607,7 @@ const Home = (props) => {
           .home-logo {
             font-size: 2em;
             align-self: center;
-            font-family: 'Nunito';
+            font-family: '';
             font-weight: 700;
             line-height: 150%;
             text-transform: capitalize;
