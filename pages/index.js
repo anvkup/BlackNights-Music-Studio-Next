@@ -434,11 +434,6 @@ const Home = (props) => {
                   {/* <Image alt="profile"
                     src="/testimonials/nehafirdaush-200h.jpg"
                     className="home-image" /> */}
-                  <img
-                    alt="profile"
-                    src="/testimonials/nehafirdaush-200h.jpg"
-                    className="home-image"
-                  />
                 </div>
               </div>
               <div className="home-testimonial-card1">
@@ -458,11 +453,6 @@ const Home = (props) => {
                 {/* <Image  alt="profile"
                   src="/testimonials/binod-200w.jpeg"
                   className="home-image1" /> */}
-                <img
-                  alt="profile"
-                  src="/testimonials/binod-200w.jpeg"
-                  className="home-image1"
-                />
               </div>
             </div>
             <div className="home-container19">
@@ -480,11 +470,6 @@ const Home = (props) => {
                   {/* <Image alt="Akansh Deep"
                     src="/testimonials/akansh-200h.jpg"
                     className="home-image2" /> */}
-                  <img
-                    alt="John Doe"
-                    src="/testimonials/akansh-200h.jpg"
-                    className="home-image2"
-                  />
                   <div className="home-container20">
                     <span className="home-text64">Akansh Deep</span>
                     <span className="home-text65">Software Engineer</span>
