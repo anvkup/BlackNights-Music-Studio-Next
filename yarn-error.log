@@ -28,7 +28,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "blacknights-music-studio",
+    "name": "black-nights-music-studio",
     "version": "1.0.0",
     "description": "A next project generated based on a UIDL document",
     "main": "index.js",
@@ -38,7 +38,7 @@ npm manifest:
       "start": "next start",
       "export": "next export"
     },
-    "author": "BlackNights Music Studio",
+    "author": "Black Nights Music Studio",
     "license": "",
     "dependencies": {
       "dangerous-html": "0.1.13",

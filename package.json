@@ -9,7 +9,7 @@
     "start": "next start",
     "export": "next export"
   },
-  "author": "BlackNights Music Studio",
+  "author": "Black Nights Music Studio",
   "license": "MIT",
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
