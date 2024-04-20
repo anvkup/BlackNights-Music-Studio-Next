@@ -12,14 +12,14 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>BlackNights Music Studio</title>
+          <title>Black Nights Music Studio</title>
         </Head>
         <div className="home-header">
           <header
             data-thq="thq-navbar"
             className="home-navbar-interactive navbarContainer"
           >
-            <span className="home-logo">BlackNights Music Studio</span>
+            <span className="home-logo">Black Nights Music Studio</span>
             <div data-thq="thq-navbar-nav" className="home-desktop-menu">
               <nav className="home-links">
                 <a href="#hero" className="home-nav12 bodySmall">
@@ -63,7 +63,7 @@ const Home = (props) => {
             >
               <div className="home-nav">
                 <div className="home-top">
-                  <span className="logo">BLACKNIGHTS</span>
+                  <span className="logo">BLACK NIGHTS</span>
                   <div data-thq="thq-close-menu" className="home-close-menu">
                     <svg
                       viewBox="0 0 1024 1024"
@@ -129,7 +129,7 @@ const Home = (props) => {
           <div id="hero" className="home-hero1 heroContainer">
             <div className="home-container01">
               <h1 className="heading1">
-                Welcome to BlackNights Music Studio
+                Welcome to Black Nights Music Studio
               </h1>
               <span className="home-hero-sub-heading bodyLarge">
                 <span>
@@ -297,7 +297,7 @@ const Home = (props) => {
                 ></FeatureCard>
                 <FeatureCard
                   heading="Attention to Detail"
-                  subHeading="At Blacknights Music Studio, we believe that the little details matter. From the smallest nuances in a mix to the precise synchronization in dubbing, we pay meticulous attention to detail to ensure a polished and professional end result."
+                  subHeading="At Black Nights Music Studio, we believe that the little details matter. From the smallest nuances in a mix to the precise synchronization in dubbing, we pay meticulous attention to detail to ensure a polished and professional end result."
                 ></FeatureCard>
               </div>
             </div>
@@ -305,11 +305,11 @@ const Home = (props) => {
         </div>
         <div id="banner" className="home-banner bannerContainer">
           <h3 className="home-banner-heading heading2">
-            Elevate Your Sound with BlackNights Music Studio
+            Elevate Your Sound with Black Nights Music Studio
           </h3>
           <span className="home-banner-sub-heading">
             <span>
-              When you choose Blacknights Music Studio, you can trust that you
+              When you choose Black Nights Music Studio, you can trust that you
               are working with a dedicated team that is committed to delivering
               excellence in every aspect of music production, mixing mastering,
               and dubbing services.
@@ -424,7 +424,7 @@ const Home = (props) => {
                       <path d="M225 448c123.712 0 224 100.29 224 224 0 123.712-100.288 224-224 224s-224-100.288-224-224l-1-32c0-247.424 200.576-448 448-448v128c-85.474 0-165.834 33.286-226.274 93.726-11.634 11.636-22.252 24.016-31.83 37.020 11.438-1.8 23.16-2.746 35.104-2.746zM801 448c123.71 0 224 100.29 224 224 0 123.712-100.29 224-224 224s-224-100.288-224-224l-1-32c0-247.424 200.576-448 448-448v128c-85.474 0-165.834 33.286-226.274 93.726-11.636 11.636-22.254 24.016-31.832 37.020 11.44-1.8 23.16-2.746 35.106-2.746z"></path>
                     </svg>
                     <span className="home-text59">
-                      Working with Blacknights Music Studio has been an absolute
+                      Working with Black Nights Music Studio has been an absolute
                       pleasure. From the initial consultation to the final
                       product, their team was attentive to our needs and
                       delivered exceptional results
@@ -461,7 +461,7 @@ const Home = (props) => {
                   <path d="M225 448c123.712 0 224 100.29 224 224 0 123.712-100.288 224-224 224s-224-100.288-224-224l-1-32c0-247.424 200.576-448 448-448v128c-85.474 0-165.834 33.286-226.274 93.726-11.634 11.636-22.252 24.016-31.83 37.020 11.438-1.8 23.16-2.746 35.104-2.746zM801 448c123.71 0 224 100.29 224 224 0 123.712-100.29 224-224 224s-224-100.288-224-224l-1-32c0-247.424 200.576-448 448-448v128c-85.474 0-165.834 33.286-226.274 93.726-11.636 11.636-22.254 24.016-31.832 37.020 11.44-1.8 23.16-2.746 35.106-2.746z"></path>
                 </svg>
                 <span className="home-text63">
-                  Blacknights Music Studio has been instrumental in helping me
+                  Black Nights Music Studio has been instrumental in helping me
                   bring my original songs to life. Their expertise in music
                   production, mixing, and mastering has truly elevated the
                   quality of my recordings.
@@ -536,7 +536,7 @@ const Home = (props) => {
         <div className="home-footer">
           <footer className="home-footer1 footerContainer">
             <div className="home-container23">
-              <span className="logo">BLACKNIGHTS</span>
+              <span className="logo">BLACK NIGHTS</span>
               <nav className="home-nav1">
                 <a href="#hero" className="home-nav122 bodySmall">
                   Home
@@ -555,7 +555,7 @@ const Home = (props) => {
             <div className="home-separator"></div>
             <div className="home-container24">
               <span className="bodySmall home-text84">
-                © 2024 BlackNights Music, All Rights Reserved.
+                © 2024 Black Nights Music, All Rights Reserved.
               </span>
               <div className="home-icon-group1">
                 <svg

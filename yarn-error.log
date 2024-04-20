@@ -38,7 +38,7 @@ npm manifest:
       "start": "next start",
       "export": "next export"
     },
-    "author": "BlackNights Music Studio",
+    "author": "Black Nights Music Studio",
     "license": "",
     "dependencies": {
       "dangerous-html": "0.1.13",
