@@ -13,7 +13,7 @@ const Stats = (props) => {
           </svg>
           <span className="stats-text">{props.text}</span>
           <span className="stats-text1">{props.text1}</span>
-          <h1 className="stats-text2">{props.heading}</h1>
+          <h2 className="stats-text2">{props.heading}</h2>
         </div>
         <div className="stats-stat1">
           <svg viewBox="0 0 1024 1024" className="stats-icon3">
@@ -21,7 +21,7 @@ const Stats = (props) => {
           </svg>
           <span className="stats-text3">{props.text2}</span>
           <span className="stats-text4">{props.text3}</span>
-          <h1 className="stats-text5">{props.heading1}</h1>
+          <h2 className="stats-text5">{props.heading1}</h2>
         </div>
         <div className="stats-stat2">
           <svg viewBox="0 0 1024 1024" className="stats-icon5">
@@ -29,7 +29,7 @@ const Stats = (props) => {
           </svg>
           <span className="stats-text6">{props.text4}</span>
           <span className="stats-text7">{props.text5}</span>
-          <h1 className="stats-text8">{props.heading2}</h1>
+          <h2 className="stats-text8">{props.heading2}</h2>
         </div>
       </div>
       <style jsx>

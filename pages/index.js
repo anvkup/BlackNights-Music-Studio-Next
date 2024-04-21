@@ -128,9 +128,9 @@ const Home = (props) => {
         <div className="home-hero">
           <div id="hero" className="home-hero1 heroContainer">
             <div className="home-container01">
-              <h1 className="heading1">
+              <h2 className="heading1">
                 Welcome to Black Nights Music Studio
-              </h1>
+              </h2>
               <span className="home-hero-sub-heading bodyLarge">
                 <span>
                   <span>
@@ -374,13 +374,13 @@ const Home = (props) => {
         <div className="home-gallery">
           <div className="home-container04">
             <div className="home-container05">
-              <h1 className="home-text46">Mixing</h1>
+              <h2 className="home-text46">Mixing</h2>
               <span className="home-text47">Professionals at Work</span>
             </div>
           </div>
           <div className="home-container06">
             <div className="home-container07">
-              <h1 className="home-text48">Music Production</h1>
+              <h2 className="home-text48">Music Production</h2>
               <span className="home-text49">
                 Classified, Creative, Incredible
               </span>
@@ -388,13 +388,13 @@ const Home = (props) => {
           </div>
           <div className="home-container08">
             <div className="home-container09">
-              <h1 className="home-text50">Mastering</h1>
+              <h2 className="home-text50">Mastering</h2>
               <span className="home-text51">Make Your Music Louder</span>
             </div>
           </div>
           <div className="home-container10">
             <div className="home-container11">
-              <h1 className="home-text52">Dubbing </h1>
+              <h2 className="home-text52">Dubbing </h2>
               <span className="home-text53">
                 For Movies, Short Films, Documentaries and Jingles
               </span>
@@ -402,13 +402,13 @@ const Home = (props) => {
           </div>
           <div className="home-container12">
             <div className="home-container13">
-              <h1 className="home-text54">Jingles / Advertisements</h1>
+              <h2 className="home-text54">Jingles / Advertisements</h2>
               <span className="home-text55">Make Your Brand Audible</span>
             </div>
           </div>
           <div className="home-container14">
             <div className="home-container15">
-              <h1 className="home-text56">Recording </h1>
+              <h2 className="home-text56">Recording </h2>
               <span className="home-text57">-</span>
             </div>
           </div>
@@ -481,11 +481,7 @@ const Home = (props) => {
         </div>
         <Stats></Stats>
         <div id="contact" className="home-banner1">
-          <h1 className="home-text66">Let&apos;s Discuss Your Project</h1>
-          {/* Calendly inline widget begin */}
-          {/* <div class="calendly-inline-widget" data-url="https://calendly.com/anvkup2002?hide_landing_page_details=1&background_color=000000&text_color=ffffff&primary_color=cf8300"></div>
-          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> */}
-          {/* Calendly inline widget end */}
+          <h2 className="home-text66">Let&apos;s Discuss Your Project</h2>
           <div className="home-btn-group1">
             <a href="tel:+91 70618 31930" className="home-link button">
               <span>
