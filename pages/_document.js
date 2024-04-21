@@ -14,6 +14,7 @@ class CustomDocument extends Document {
             name="description"
             content="Elevate your music to new heights with Ranchi's finest recording studio and music production facility. We also offer exceptional advertisement solutions."></meta>
           <meta charSet="utf-8"></meta>
+          <meta ></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
           <style
             dangerouslySetInnerHTML={{
@@ -30,16 +31,6 @@ class CustomDocument extends Document {
             data-tag="default-style-sheet"
           ></style>
           <Script rel='stylesheet' src='https://unpkg.com/animate.css@4.1.1/animate.css'/>
-          {/* <link
-            rel="stylesheet"
-            href="https://unpkg.com/animate.css@4.1.1/animate.css"
-          ></link> */}
-          <link
-            rel="shortcut icon"
-            href="/logo.png"
-            type="icon/png"
-            sizes="32x32"
-          ></link>
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
@@ -50,26 +41,11 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&amp;display=swap"
             data-tag="font"
           ></link>
-          {/* <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-            data-tag="font"
-          ></link> */}
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&amp;display=swap"
             data-tag="font"
           ></link>
-          {/* <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Nunito"
-            data-tag="font"
-          ></link> */}
-          {/* <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-            data-tag="font"
-          ></link> */}
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Laila"
@@ -80,41 +56,16 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&amp;display=swap"
             data-tag="font"
           ></link>
-          {/* <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-            data-tag="font"
-          ></link> */}
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
           ></link>
-          {/* <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-            data-tag="font"
-          ></link> */}
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
           ></link>
-          {/* 
-██████╗░███████╗███╗░░░███╗░█████╗░██╗░░░██╗███████╗██████╗░
-██╔══██╗██╔════╝████╗░████║██╔══██╗██║░░░██║██╔════╝██╔══██╗
-██████╔╝█████╗░░██╔████╔██║██║░░██║╚██╗░██╔╝█████╗░░██║░░██║
-██╔══██╗██╔══╝░░██║╚██╔╝██║██║░░██║░╚████╔╝░██╔══╝░░██║░░██║
-██║░░██║███████╗██║░╚═╝░██║╚█████╔╝░░╚██╔╝░░███████╗██████╔╝
-╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝░╚════╝░░░░╚═╝░░░╚══════╝╚═════╝░
- */}
-
-
-
-          {/* <link
-            rel="stylesheet"
-            href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-          ></link> */}
           <noscript
             dangerouslySetInnerHTML={{
               __html:
@@ -125,14 +76,6 @@ class CustomDocument extends Document {
         <body>
           <Main></Main>
           <NextScript></NextScript>
-          {/* <div
-            dangerouslySetInnerHTML={{
-              __html:
-                
-              "<script data-section-id='navbar' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
-
-            }}
-          ></div> */}
         </body>
       </Html>
     )

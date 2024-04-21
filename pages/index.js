@@ -482,27 +482,10 @@ const Home = (props) => {
         <Stats></Stats>
         <div id="contact" className="home-banner1">
           <h1 className="home-text66">Let&apos;s Discuss Your Project</h1>
-          <span className="home-text67">
-            <span>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
-                dignissim tortor.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-            </span>
-          </span>
+          {/* Calendly inline widget begin */}
+          {/* <div class="calendly-inline-widget" data-url="https://calendly.com/anvkup2002?hide_landing_page_details=1&background_color=000000&text_color=ffffff&primary_color=cf8300"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> */}
+          {/* Calendly inline widget end */}
           <div className="home-btn-group1">
             <a href="tel:+91 70618 31930" className="home-link button">
               <span>
