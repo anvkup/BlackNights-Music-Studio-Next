@@ -12,7 +12,7 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Black Nights Music Studio | Ranchi</title>
+          <title>Black Nights Music Studio | Ranchi | Best Music Studio In Ranchi</title>
         </Head>
         <div className="home-header">
           <header
