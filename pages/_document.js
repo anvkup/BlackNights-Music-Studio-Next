@@ -14,7 +14,6 @@ class CustomDocument extends Document {
             name="description"
             content="Elevate your music to new heights with Ranchi's finest recording studio and music production facility. We also offer exceptional advertisement solutions."></meta>
           <meta charSet="utf-8"></meta>
-          <meta ></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
           <style
             dangerouslySetInnerHTML={{
@@ -30,7 +29,11 @@ class CustomDocument extends Document {
             }}
             data-tag="default-style-sheet"
           ></style>
-          <Script rel='stylesheet' src='https://unpkg.com/animate.css@4.1.1/animate.css'/>
+          <Script rel='stylesheet' src='https://unpkg.com/animate.css@4.1.1/animate.css' />
+
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZCSQW8EBL"></script>
+
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
