@@ -19,7 +19,7 @@ const Home = (props) => {
             data-thq="thq-navbar"
             className="home-navbar-interactive navbarContainer"
           >
-            <span className="home-logo">Black Nights Music Studio</span>
+            <h1 className="home-logo">Black Nights Music Studio</h1>
             <div data-thq="thq-navbar-nav" className="home-desktop-menu">
               <nav className="home-links">
                 <a href="#hero" className="home-nav12 bodySmall">
